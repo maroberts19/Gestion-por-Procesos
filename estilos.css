@@ -3,11 +3,7 @@ header{
     margin-top: auto;margin-bottom: auto; display: flex; flex-direction: column; justify-content: center;
     min-width:405px;
 }
-@media (max-width: 768px) {
-    header{
-        width: calc(100% - 1px);
-     }
-    }           
+
 h2 {
     color:midnightblue; font-size: 1.5rem;
 }
@@ -31,10 +27,6 @@ aside {
      margin-top: 1%;margin-bottom: 5%; flex-direction: column; justify-content: space-between; 
      align-items:center; width: 30%; 
 }
-@media (max-width: 768px) {
-    aside {margin-left: 5%; min-width: 70vw;
-    }           
-    }
 div{
     display: flex; color:blue; justify-content: center; 
     margin-bottom: auto; background-color: white; flex-direction: column;
@@ -56,23 +48,13 @@ ul {
       text-decoration: none; color: white; flex:auto; text-align: center;
       font-family: Arial, Helvetica, sans-serif;
       } 
- @media (max-width: 600px) {
-        li {
-            margin-bottom: 1rem; 
-        }
-    }
-.option{
+ .option{
     background: white; color:navy; font-weight: bold;
 }       
 
 article{ margin-left: 1%; margin-right:1%;
     margin-top: 1%;margin-bottom: 1%; padding-left : 1%; font-size: 1rem; min-width: 200px;
 }
-@media (max-width: 600px) {
-    article {min-width: 70vw;
-    }           
-    }
-
 i {
         padding: 1%;
 }
@@ -168,3 +150,21 @@ button:hover {
   p{
       font-size: 1rem
   }
+ @media (max-width: 768px) {
+    header{
+        width: calc(100% - 1px);
+     }
+    }           
+ @media (max-width: 768px) {
+        aside {margin-left: 5%; min-width: 70vw;
+        }           
+        }
+ @media (max-width: 600px) {
+            article {min-width: 70vw;
+            }           
+            }
+ @media (max-width: 600px) {
+                li {
+                    margin-bottom: 1rem; 
+                }
+            }            
