@@ -156,15 +156,15 @@ button:hover {
      }
     }           
  @media (max-width: 768px) {
-        aside {margin-left: 5%; min-width: 70vw;
+        aside {width: calc(100% - 1px);
         }           
         }
  @media (max-width: 600px) {
-            article {min-width: 70vw;
+            article {width: calc(100% - 1px);
             }           
             }
  @media (max-width: 600px) {
                 li {
-                    margin-bottom: 1rem; 
+                    margin-bottom: 1rem; width: calc(100% - 1px);
                 }
             }            
